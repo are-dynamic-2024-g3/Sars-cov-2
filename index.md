@@ -8,9 +8,9 @@ Un titre et un résumé en anglais qui reprennent le titre et le résumé en fra
 
 ## Présentation de l'équipe
 
-|(´・ω・｀)| ( ͡° ͜ʖ ͡°) |
+| Humain1 | Humain2 |
 |-----|--|
-| P. Bismuth| J. Doe |
+| R.Antoine | M.Franck |
 
 
 ## Description synthétique du projet
