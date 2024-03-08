@@ -1,8 +1,8 @@
-# L’immunité post infection du SARS-CoV-2 (covid 19)
+# L’immunité post infection du SARS-CoV-2
 
-Résumé de quelques lignes présentant l'objectif de votre projet, la méthode que vous avez suivie pour le réaliser et les résultats marquants que vous avez obtenus.
 
-## English version
+
+## Post infection immunity from SARS-CoV-2
 
 Un titre et un résumé en anglais qui reprennent le titre et le résumé en français, mais en anglais pour attirer une audience internationale sur vos travaux !
 
