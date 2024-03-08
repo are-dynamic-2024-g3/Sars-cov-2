@@ -1,10 +1,9 @@
 # L’immunité post infection du SARS-CoV-2
 
-
+Nous voulons étudiez la propagation du virus dans le temps et l'espace au sein de deux groupes distincts, l'un sans aucune vaccination et l'autre avec un taux de vaccination variable. 
 
 ## Post infection immunity from SARS-CoV-2
-
-Un titre et un résumé en anglais qui reprennent le titre et le résumé en français, mais en anglais pour attirer une audience internationale sur vos travaux !
+We wish to study the virus spreading in time and space into two differents group, the first one without any vaccination and the other one with a adjustable vaccination rate .
 
 ## Présentation de l'équipe
 
