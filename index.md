@@ -15,15 +15,15 @@ Un titre et un résumé en anglais qui reprennent le titre et le résumé en fra
 
 ## Description synthétique du projet
 
-**Problématique :** 
+**Problématique : L’immunité post infection est-elle suffisante pour endigué la propagation du virus** 
 
-**Hypothèse principale :**
+**Hypothèse principale : Non, ce n’est pas suffisant et doit être complémenté par un taux de vaccination suffisant**
 
 **Hypothèses secondaires :** 
 
-**Objectifs :**
+**Objectifs : Determiner si l'immunité post-infection est suffisante et si non, quel est le taux de vaccination necessaire**
 
-**Critère(s) d'évaluation :**
+**Critère(s) d'évaluation : Evaluer le taux de personnes infecté en fonction du temps dans 2 groupe**
 
 ## Présentation structurée des résultats
 
