@@ -8,9 +8,9 @@ Un titre et un résumé en anglais qui reprennent le titre et le résumé en fra
 
 ## Présentation de l'équipe
 
-|(´・ω・｀)| ( ͡° ͜ʖ ͡°) | ಠ_ಠ | ᕕ( ᐛ )ᕗ |
-|-----|--|--|--|
-| P. Bismuth| J. Doe | A. Onyme  | N. Nescio  |
+|(´・ω・｀)| ( ͡° ͜ʖ ͡°) |
+|-----|--|
+| P. Bismuth| J. Doe |
 
 
 ## Description synthétique du projet
