@@ -28,7 +28,7 @@ We wish to study the virus spreading in time and space into two differents group
 
 Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).
 
-## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
+## Lien vers page de blog : <a href="blog.md"> C'est ici ! </a>
 
 ## Bibliographie :
 
