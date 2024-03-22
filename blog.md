@@ -13,7 +13,7 @@ Cette semaine nous avons bien avancez sur le code , en nous focalisant sur un mo
 
 ### Semaine 3
 
-Pour cette troisième semaine nous avons décidé de rendre nos monde plus juste en mettant une durée de vie au virus ce qui donne une posibilité de guérison a nos pauvres habitants.Pour cela il a fallut integrer une matrice représentant le temps et une fonction permettant de désinfecter les differents individus après un temps donné.
+Pour cette troisième semaine nous avons décidé de rendre nos monde plus juste en mettant une durée de vie au virus ce qui donne une posibilité de guérison a nos pauvres habitants.Pour cela il a fallut integrer une matrice représentant le temps et une fonction permettant de désinfecter les differents individus après un temps donné. De plus il a fallut adapter tout le reste de notre code ce qui a pris un peu de temps malgré les disposition que nous avions pris pour qu'il soit facilement modifiable.
 
 ### ...
 
