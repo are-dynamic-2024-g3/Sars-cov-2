@@ -4,20 +4,17 @@
 
 ### Semaine 1
 
-Recherche:
-Dans notre cas, même si on est en cas immunisé, on n’est pas dans un cas complètement immunisé, ils possèdent toujours un taux d’être infecté.
-
-Infection 8 personnes sous forme de carré, si la personne est immunisée, la propagation est compté donc -1, la propagation n’est pas comptée si la personne n’est pas infectée.
-
-•	Le taux de propagation R0(taux d’infection du virus) : environ 2
-
-•	Le taux d’immunité lié aux infections : 
-
-•	Le taux d’immunité lié aux vaccinations :
-
+Salut aujourd'hui nous avons fais quelques recherches pour récuperer certaines informations essentielles au bon déroulement du code, tel que le R0, le taux d'immunité et le temps d'infection.
+De plus nous avons commencez le code, en créeant des mondes 2D alatoire(generate_spacial_world) et une fonction qui simule le patient zero(infection_world).
 
 ### Semaine 2
+
+Cette semaine nous avons bien avancez sur le code , en nous focalisant sur un modèle simple le monde est maintenant capable d'évoluer avec des déplacements et des infections entre les differents habitants.
+
 ### Semaine 3
+
+Pour cette troisième semaine nous avons décidé de rendre nos monde plus juste en mettant une durée de vie au virus ce qui donne une posibilité de guérison a nos pauvres habitants.Pour cela il a fallut integrer une matrice représentant le temps et une fonction permettant de désinfecter les differents individus après un temps donné.
+
 ### ...
 
 <a href="index.html"> Retour à la page principale </a>
