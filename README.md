@@ -13,7 +13,7 @@ def tour_vaccin(world,rzero,durée_infection,parallele,duree_vaccin):
                         if worldbis[x,y] != None and worldbis[x,y]!= 1:
                             worldbis = infection_cellule(worldbis,x,y)
                             nb += 1
-    return devaccin(desinfection(worldbis,durée_infection,parallele),duree_vaccin)
+return devaccin(desinfection(worldbis,durée_infection,parallele),duree_vaccin)
 
 
 
