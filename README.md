@@ -1,5 +1,4 @@
 # Sars-cov-2
-
 def tour_vaccin(world,rzero,durée_infection,parallele,duree_vaccin):
     worldbis = np.copy(world)
     for i in range (0, len(world[:,0])):
