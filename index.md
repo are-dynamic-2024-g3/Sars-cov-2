@@ -1,9 +1,9 @@
 # L’immunité post infection du SARS-CoV-2
 
-Nous voulons étudiez la propagation du virus dans le temps et l'espace au sein de deux groupes distincts, l'un sans aucune vaccination et l'autre avec un taux de vaccination variable. 
+Notre projet consiste à étudier la propagation du virus dans le temps et l'espace au sein de deux groupes distincts, l'un sans aucune vaccination et l'autre avec un taux de vaccination variable. Dans un premier temps le projet est majoritairement inspiré du virus Sars-CoV-2. Cependant notre projet n'est pas seulement limité à celui-ci car nos variables sont modifiable telles que la durée d'infection (sans compté la mortalité), la vitesse de propagation, la durée de la vacination, etc...
 
 ## Post infection immunity from SARS-CoV-2
-We wish to study the virus spreading in time and space into two differents group, the first one without any vaccination and the other one with a adjustable vaccination rate .
+Our project is studying the virus spreading in time and space into two differents group, the first one without any vaccination and the other one with a adjustable vaccination rate. Of course, our projet can going further because all our variable can be modified as like the the duration of infection, the spreading speed, the duration of vaccination, etc...
 
 ## Présentation de l'équipe
 
