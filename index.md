@@ -1,3 +1,5 @@
+theme:jekyll-theme-minimal
+
 # L’immunité post infection du SARS-CoV-2
 
 Notre projet consiste à étudier la propagation du virus dans le temps et l'espace au sein de deux groupes distincts, l'un sans aucune vaccination et l'autre avec un taux de vaccination variable. Dans un premier temps le projet s'est majoritairement inspiré du virus Sars-CoV-2. Mais notre projet n'est pas seulement limité à celui-ci car nos variables sont modifiable telles que la durée d'infection (sans compté la mortalité), la vitesse de propagation, la durée de la vacination, etc...
