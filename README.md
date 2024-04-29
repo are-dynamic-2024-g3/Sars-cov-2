@@ -35,7 +35,19 @@ puis un code qui permet de generer des mondes aléatoire composé de case vide e
 2 tkinter : un vaccin faible : .GIF , un vaccin fort : 
 
 expliquer que le vaccin fort pourrait totalement stopper l'infection si prise en compte de l'immun post infection .
-## Travail effectué 
+
+Les Courbes:
+
+![Im6](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/cd0b585e-6a80-4fdd-9df1-f87d8d6134df)
+![Im5](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/146bbc7b-cbf1-4441-8a7b-d1d937c785b0)
+![Im4 fake](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/b25d94db-1665-4ee7-91a0-0180b4a26425)
+![Im3](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/95914860-c0cc-4445-81db-eec590d3550c)
+![Im2](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/9cd4c00d-1ca5-47fa-bd58-51cf3047624b)
+![Im1](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/cd7bd09e-a0c7-4b24-976a-17662f2a8868)
+![Im7](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/3677ac04-f94a-47f4-b3ee-45e6189843e2)
+
+
+## Compte rendu
 
 ### Semaine 1
 
