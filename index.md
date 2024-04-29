@@ -52,5 +52,4 @@ De même, aujourd'hui nous nous sommes plus concentré sur le codage que sur la 
 
 
 
-## Bibliographie : <a href="Bibliothèque.md"> Regarder ici </a>
 ## Lien vers page de blog : <a href="blog.md"> C'est ici ! </a>
