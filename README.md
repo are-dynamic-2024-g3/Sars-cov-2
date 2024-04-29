@@ -15,26 +15,30 @@ Our project is studying the virus spreading in time and space into two different
 
 ## Description synthétique du projet
 
-**Problématique : L’immunité post infection est-elle suffisante pour endigué la propagation du virus** 
+**Problématique : Comment la présence d'un vaccin influe sur une population lors de la propagation d'un virus ?** 
 
-**Hypothèse principale : Non, ce n’est pas suffisant et doit être complémenté par un taux de vaccination suffisant**
+**Hypothèse : Cela permet d'endiguer sa propagation mais une multitude de facteurs sont a prendre en compte.**
 
-**Hypothèses secondaires :** 
+**Objectifs : Determiner l'incidence de la vaccination sur une population donnée en fonction des differents paramètres**
 
-**Objectifs : Determiner si l'immunité post-infection est suffisante et si non, quel est le taux de vaccination necessaire**
-
-**Critère(s) d'évaluation : Evaluer le taux de personnes infecté en fonction du temps dans 2 groupe**
+**Critère(s) d'évaluation : Evaluer le taux de personnes infecté en fonction du temps et des differentes variables dans 2 groupes**
 
 ## Présentation structurée des résultats
 
 Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).
+Nous avons choisis de réaliser notre projet via jupyter notebook en python. Nous avons d'abord importer les bibliothèques utile au projet : IMG
+puis un code qui permet de generer des mondes aléatoire composé de case vide et d'individus sains : IMG
 
+
+
+2 tkinter : un vaccin faible : .GIF , un vaccin fort : .GIF .
+expliquer que le vaccin fort pourrait totalement stopper l'infection si prise en compte de l'immun post infection .
 ## Travail effectué 
 
 ### Semaine 1
 
 Aujourd'hui pour bien débuter nous avons fais quelques recherches afin d'essayer de récuperer certaines informations essentielles au bon déroulement du code, tel que le R0, le taux d'immunité et le temps d'infection.
-De plus nous avons commencez le codage, en créeant des mondes 2D alatoire(generate_spacial_world) avec des indivus sain représenté par des 0 et des None (qui est plus tardivemment remplacé par des 1) représentant par exemple des fronctière coupant les individus. Ce n'est pas tout ! En effet nous avons également codé Infection_world qui permet de piocher un individus au hasard et de lui infecter.
+De plus nous avons commencez le codage, en créeant des mondes 2D aléatoire(generate_spacial_world) avec des indivus sain représenté par des 0 et des None (qui est plus tardivemment remplacé par des 1) représentant par exemple des fronctière coupant les individus. Ce n'est pas tout ! En effet nous avons également codé Infection_world qui permet de piocher un individus au hasard et de lui infecter.
 
 ### Semaine 2
 
