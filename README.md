@@ -27,10 +27,16 @@ Our project is studying the virus spreading in time and space into two different
 
 Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).
 Nous avons choisis de réaliser notre projet via jupyter notebook en python. Nous avons d'abord importer les bibliothèques utile au projet : IMG
-puis un code qui permet de generer des mondes aléatoire composé de case vide et d'individus sains : ![Image Extreme](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/ae1f35ee-1d9e-46b1-9122-eb303fea1209)![Gif_extreme](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/1eb39753-5a6c-4082-a212-e662b68a6d88)
+puis un code qui permet de generer des mondes aléatoire composé de case vide et d'individus sains :
 
+Cas Extreme:
 
+![Image Extreme](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/ae1f35ee-1d9e-46b1-9122-eb303fea1209)![Gif_extreme](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/1eb39753-5a6c-4082-a212-e662b68a6d88)
 
+Cas Soft:
+
+![Image Soft](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/9ea82310-2ac4-405f-907b-ec8c89e0909b)
+![Gif_soft](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/33d8df13-1a06-442f-aecb-7daf4e360c49)
 
 2 tkinter : un vaccin faible : .GIF , un vaccin fort : 
 
