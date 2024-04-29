@@ -10,4 +10,4 @@ def devaccin(world,parallele,duree_vaccin):
                 parallele[i][j] = 0
     return world , parallele
       
-                                        ![image](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/ceac0791-2a66-4421-aaee-5b1bcfb21608)
+![image](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/ceac0791-2a66-4421-aaee-5b1bcfb21608)
