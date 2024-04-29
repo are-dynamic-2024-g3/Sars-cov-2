@@ -31,7 +31,8 @@ puis un code qui permet de generer des mondes aléatoire composé de case vide e
 
 
 
-2 tkinter : un vaccin faible : .GIF , un vaccin fort : .GIF .
+2 tkinter : un vaccin faible : .GIF , un vaccin fort : ![Gif_extreme](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/1eb39753-5a6c-4082-a212-e662b68a6d88)
+
 expliquer que le vaccin fort pourrait totalement stopper l'infection si prise en compte de l'immun post infection .
 ## Travail effectué 
 
