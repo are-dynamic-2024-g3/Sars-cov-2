@@ -1,6 +1,6 @@
 # L’immunité post infection du SARS-CoV-2
 
-Notre projet consiste à étudier la propagation du virus dans le temps et l'espace au sein de deux groupes distincts, l'un sans aucune vaccination et l'autre avec un taux de vaccination variable. Dans un premier temps le projet s'est majoritairement inspiré du virus Sars-CoV-2. Mais notre projet n'est pas seulement limité à celui-ci car nos variables sont modifiable telles que la durée d'infection (sans compté la mortalité), la vitesse de propagation, la durée de la vacination, etc...
+Notre projet consiste à étudier la propagation du virus dans le temps et l'espace au sein de deux groupes distincts, l'un sans aucune vaccination et l'autre avec un taux de vaccination variable. Dans un premier temps le projet s'est majoritairement inspiré du virus Sars-CoV-2. Mais notre projet n'est pas seulement limité à celui-ci car la plus part des variables sont modifiables , telles que la durée d'infection , la vitesse de propagation, la durée de la vacination, etc...
 
 ## Post infection immunity from SARS-CoV-2
 
@@ -17,17 +17,18 @@ Our project is studying the virus spreading in time and space into two different
 
 **Problématique : Comment la présence d'un vaccin influe sur une population lors de la propagation d'un virus ?** 
 
-**Hypothèse : Cela permet d'endiguer sa propagation mais une multitude de facteurs sont a prendre en compte.**
+**Hypothèse : Cela permet d'endiguer sa propagation mais une multitude de facteurs sont à prendre en compte.**
 
-**Objectifs : Determiner l'incidence de la vaccination sur une population donnée en fonction des differents paramètres**
+**Objectifs : Determiner l'incidence de la vaccination sur une population donnée en fonction des differents paramètres.**
 
-**Critère(s) d'évaluation : Evaluer le taux de personnes infecté en fonction du temps et des differentes variables dans 2 groupes**
+**Critère(s) d'évaluation : Evaluer le taux de personnes infectées en fonction du temps et des differentes variables dans 2 groupes.**
 
 ## Présentation structurée des résultats
 
 Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).
-Nous avons choisis de réaliser notre projet via jupyter notebook en python. Nous avons d'abord importer les bibliothèques utile au projet : IMG
-puis un code qui permet de generer des mondes aléatoire composé de case vide et d'individus sains :
+
+Nous avons choisi de réaliser notre projet via jupyter notebook en python. Nous avons d'abord importé les bibliothèques utiles au projet : IMG
+puis un code qui permet de générer des mondes aléatoires composées de case vide et d'individus sains :
 
 Cas Extreme:
 
