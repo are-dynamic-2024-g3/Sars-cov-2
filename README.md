@@ -128,7 +128,8 @@ Pour la courbe suivante nous avons décider de jouer sur la capacitée des indiv
 <img width="477" alt="courbe résistance" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/d70959d1-82c1-4ab8-8120-19ac407b2b23">
 
 
-
+Sans surprise la baisse est proportionnelle au taux de résistance, la courbe du monde contenant le vaccin tend cependant légèrement plus vite vers 0. Ce facteur est donc très important pour prédire la 
+viralitée d'un virus. Mais ce n'est pas la facteur sur le quel il est le plus simple d'influer. 
 
 
 La troisième courbe fait varier la durée de l'infection dans le temps : 
