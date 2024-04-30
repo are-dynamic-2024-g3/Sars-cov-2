@@ -33,15 +33,18 @@ Nous avons d'abord importé les bibliothèques utiles au projet :
 <img width="747" alt="biblio" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/7dd99020-ecf8-4095-8f08-77e21998f54d">
 
 puis un code qui permet de générer des mondes aléatoires composés de cases vides et d'individus sains :
+
 <img width="744" alt="creamonde" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/85506b05-6669-4550-89b1-a48d551b96a5">
 
 Nous avons ensuite créer un code permettant d'infecter aléatoirement une case non vide dans le monde : 
+
 <img width="629" alt="primoinfection" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/a0ef6ff5-fae5-4a8e-a765-149a05cf14b3">
 
 Ainsi qu'un code pouvent faire une liste des voisins d'une case de coordonnée (x,y) et un autre qui permet d'analyser cette liste et de vérifier sur une case répondant au critères d'infections est encore disponible , ce qui nous à permis de créer une condition d'arrêt pour nous infections . 
 Un autre code à été necessaire pour créer un autre tableau a 2dimension contenant une information très importante pour la suite du code : la durée depuis la quelle une personne est dans un état x ( infecté ou vacciné ) ce qui nous permet de contrôler quand une cellule arrive à la durée 
 d'expiration de son état actuel. 
  une fois tous les codes réaliser nous avons fait un nouveau code permettant d'effectuer un tour complet de boucle dans une monde pour le moment contenant uniquement des cases vides , des individus saints et d'autres infectés : 
+ 
  <img width="741" alt="tour base" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/06a33b21-7229-49c5-ba6f-10ceb46c4bb9">
 
  puis nous avons réaliser la même chose pour une monde contenant aussi une autre possibilitée : une personne vaccinée. 
