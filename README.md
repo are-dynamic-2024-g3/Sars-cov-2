@@ -54,12 +54,15 @@ d'expiration de son état actuel.
  Nous avons ensuite décidé de mettre à profit tout le travail réalisé plus tôt avec la bibliothèque *TKINTER* pour avoir une visualisation plus concrète des différents monde au cours du temps. 
  voici donc le code *TKINTER* utilisé pour réaliser cela: 
  <img width="592" alt="tk1" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/123e545f-02c9-4ff2-a741-8156c759855e">
-ici nous commençons par créer les deux mondes sur une même base ainsi que leur parallèle contenant les informations de temps. 
+
+Ici nous commençons par créer les deux mondes sur une même base ainsi que leur parallèle contenant les informations de temps. 
 
 <img width="563" alt="tk2" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/98b918e6-bd5f-40f9-9820-82207021182b">
+
 Nous déclarons les différentes variables nécéssaire à la création de la fenetre *TKINTER* ainsi que de la zone de dessin. 
 
 <img width="700" alt="tk3" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/3036fbd9-3423-4f88-a61d-fd05a3e4cc85">
+
 Et voici le code qui nous permet de gerer la zone de dessin et de la mettre à jour de manière automatique en effectuant un tour de boucle à chaque actualisation.
 
 voici deux exemple de ce que donne la fenetre tkinter avec les variables utiliser lors de chacunes des simunations.
