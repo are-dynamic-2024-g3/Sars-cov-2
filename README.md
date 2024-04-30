@@ -130,6 +130,7 @@ Pour la courbe suivante nous avons décider de jouer sur la capacitée des indiv
 
 
 
+
 La troisième courbe fait varier la durée de l'infection dans le temps : 
 
 
