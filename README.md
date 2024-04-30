@@ -161,7 +161,7 @@ Pour la cinquième courbe nous avons décidé de jouer avec le taux d'efficacit�
 
 
 
-Nous avons poursuivi avec une analise suivant le temps entre deux vague de vaccination :
+Nous avons poursuivi avec une analyse suivant le temps entre deux vague de vaccination :
 
 
 <img width="443" alt="courbe freq vaccin" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/67afec60-57db-442b-b442-234ef0bc7a91">
