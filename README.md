@@ -104,6 +104,16 @@ en vert : les individus vaccinés.
 Ici nous pouvons observer que malgré la présence d'individus vaccinés le virus continue de circuler sans être beaucoup impacté.
 
 ## Les courbes :
+Pour pouvoir visualiser l'impact des différentes variables individuelement nous avons décider de générer des courbes avec des variables fixe à certaine valeur et une variable unique,
+qui change à chaque courbe.
+
+Voici les paramètres utiliser:
+
+<img width="528" alt="variables courbes" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/a15fbde6-6696-46d3-a3f8-643adbbf4e6a">
+
+ainsi qu'un exemple du code utiliser pour les différentes courbes : 
+
+<img width="742" alt="ex code courbe" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/886cab24-66da-4288-b307-641563d21463">
 
 
 
