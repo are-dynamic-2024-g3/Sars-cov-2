@@ -123,6 +123,7 @@ Pour la première courbe nous avons décidé de faire varier le nombre de person
 de manière assez logique plus les personnes sont contagieuse plus le nombre d'infectés à la fin de la simulation est grand, une légère différence est présente entre le monde ayant accès au vaccin et celui qui n'y à pas accès mais malgré ça le nombre d'infectés reste très élevé avec l'augmentation de la contagiosité.
 
 
+
 Pour la courbe suivante nous avons décider de jouer sur la capacitée des individus à résister à une transmission:
 
 <img width="477" alt="courbe résistance" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/d70959d1-82c1-4ab8-8120-19ac407b2b23">
@@ -132,10 +133,14 @@ Sans surprise la baisse est proportionnelle au taux de résistance, la courbe du
 viralitée d'un virus. Mais ce n'est pas la facteur sur le quel il est le plus simple d'influer. 
 
 
+
 La troisième courbe fait varier la durée de l'infection dans le temps : 
 
 
 <img width="444" alt="courbe duree infection" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/b82512d5-6ab2-43ee-85d5-641020139a43">
+
+
+
 
 
 La suivante mets en avant la fluctuation de la durée d'efficacitée du vaccin :
