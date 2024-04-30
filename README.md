@@ -78,12 +78,23 @@ Un cas avec une vaccination forte avec des paramètres élévés:
 
 ![Image Extreme](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/ae1f35ee-1d9e-46b1-9122-eb303fea1209)
 ![Gif_extreme](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/1eb39753-5a6c-4082-a212-e662b68a6d88)
+en noir : les cases vides.
+en blanc : les individus sains.
+en rouge : les individus infectés.
+en vert : les individus vaccinés.
+
+on voit ici que dans le monde contenant le vaccin la propagation du virus est très limitée et serait surement totalement nulle si l'immunité post-infection était prise en compte.
 
 Un cas où la vaccination sur la population est plus faible:
 
 ![Image Soft](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/9ea82310-2ac4-405f-907b-ec8c89e0909b)
 ![Gif_soft](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/33d8df13-1a06-442f-aecb-7daf4e360c49)
+en noir : les cases vides.
+en blanc : les individus sains.
+en rouge : les individus infectés.
+en vert : les individus vaccinés.
 
+Ici nous pouvons observer que malgré la présence d'individus vaccinés le virus continue de circuler sans être beaucoup impacté.
 
 Les Courbes:
 
