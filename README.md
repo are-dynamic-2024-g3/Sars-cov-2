@@ -175,7 +175,10 @@ Pour finir une courbe mettant en avant la différence suivant le nombre de vacci
 
 <img width="455" alt="courbe vaccin partour" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/eaa83b5b-289f-497d-91aa-2885d5bdf14d">
 
+Cette courbe est surement la plus explicite, effectivement malgré une variance possible dut à l'aléatoire le résultat reste très linéaire et une tendance très clair se dessine.
 
+**Conclusion**: 
+Les differentes variables ont une incidence plus ou moins visible sur le nombre d'infectés mais c'est l'accumulation de ces dernière que l'on obtient le meilleur resultat, de plus le monde est drastiquement simplifié par rapport à un cas réel ce qui explique certaines différence avec la réalité , l'absence de la prise en compte de l'immunité post-infection et la prise en compte de l'evolution du virus sont les deux plus gros facteurs non pris en compte dans notre réalisation, il serait donc très interessant de voir l'évolution des résultats avec l'ajout de ces derniers. Introduire une immunité dégressive serait aussi une piste très intéressante pour rendre notre simulation plus proche de la réalité mais demanderait plu de temps pour être implémenté et demanderait une optimsation plus poussé du code acutel pour éviter d'avoir un code final trop lourd lors de l'execution.
 
 ## Compte rendu
 
