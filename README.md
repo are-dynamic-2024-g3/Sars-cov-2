@@ -116,6 +116,50 @@ ainsi qu'un exemple du code utiliser pour les différentes courbes :
 <img width="742" alt="ex code courbe" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/886cab24-66da-4288-b307-641563d21463">
 
 
+Pour la première courbe nous avons décidé de faire varier le nombre de personne qu'un individu infecté peut contaminer : 
+
+<img width="447" alt="courbe propagation" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/854eb213-7b17-4c25-8f2e-f5f2f7e31de4">
+
+de manière assez logique plus les personnes sont contagieuse plus le nombre d'infectés à la fin de la simulation est grand, une légère différence est présente entre le monde ayant accès au vaccin et celui qui n'y à pas accès mais malgré ça le nombre d'infectés reste très élevé avec l'augmentation de la contagiosité.
+
+
+Pour la courbe suivante nous avons décider de jouer sur la capacitée des individus à résister à une transmission:
+
+<img width="477" alt="courbe résistance" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/d70959d1-82c1-4ab8-8120-19ac407b2b23">
+
+
+
+
+La troisième courbe fait varier la durée de l'infection dans le temps : 
+
+
+<img width="444" alt="courbe duree infection" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/b82512d5-6ab2-43ee-85d5-641020139a43">
+
+
+La suivante mets en avant la fluctuation de la durée d'efficacitée du vaccin :
+
+
+<img width="455" alt="courbe duree efficacité" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/8e29ef50-4ec0-4de5-86eb-0de3e7148af8">
+
+
+Pour la cinquième courbe nous avons décidé de jouer avec le taux d'efficacité du vaccin :
+
+
+<img width="453" alt="courbe taux immun" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/69dd4772-1cb9-4408-a9e4-6802c72abcb1">
+
+
+Nous avons poursuivi avec une analise suivant le temps entre deux vague de vaccination :
+
+
+<img width="443" alt="courbe freq vaccin" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/67afec60-57db-442b-b442-234ef0bc7a91">
+
+
+Pour finir une courbe mettant en avant la différence suivant le nombre de vaccin par vague de vaccination : 
+
+
+<img width="455" alt="courbe vaccin partour" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/eaa83b5b-289f-497d-91aa-2885d5bdf14d">
+
+
 
 ## Compte rendu
 
