@@ -159,6 +159,8 @@ Pour la cinquième courbe nous avons décidé de jouer avec le taux d'efficacit�
 
 <img width="449" alt="courbe taux immun" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/5691e960-656d-43e7-9633-cbe9e0c8860d">
 
+Il est possible de faire un lien assez évident entre le taux d'immunité du vaccin et la réduction du nombre d'individus infectés à la fin des simulations malgré quelques inconsistances dut encore une fois au côté aléatoire et la taille réduite de notre représentation ce qui accentue l'impacte de l'aléatoire.
+
 
 
 Nous avons poursuivi avec une analyse suivant le temps entre deux vague de vaccination :
