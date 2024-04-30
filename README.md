@@ -93,9 +93,13 @@ Un cas où la vaccination sur la population est plus faible:
 ![Image Soft](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/9ea82310-2ac4-405f-907b-ec8c89e0909b)
 ![Gif_soft](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/33d8df13-1a06-442f-aecb-7daf4e360c49)
 en noir : les cases vides.
+
 en blanc : les individus sains.
+
 en rouge : les individus infectés.
+
 en vert : les individus vaccinés.
+
 
 Ici nous pouvons observer que malgré la présence d'individus vaccinés le virus continue de circuler sans être beaucoup impacté.
 
