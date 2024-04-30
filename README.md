@@ -53,6 +53,7 @@ d'expiration de son état actuel.
 
  Nous avons ensuite décidé de mettre à profit tout le travail réalisé plus tôt avec la bibliothèque *TKINTER* pour avoir une visualisation plus concrète des différents monde au cours du temps. 
  voici donc le code *TKINTER* utilisé pour réaliser cela: 
+ 
  <img width="592" alt="tk1" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/123e545f-02c9-4ff2-a741-8156c759855e">
 
 Ici nous commençons par créer les deux mondes sur une même base ainsi que leur parallèle contenant les informations de temps. 
