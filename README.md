@@ -166,6 +166,10 @@ Nous avons poursuivi avec une analise suivant le temps entre deux vague de vacci
 <img width="443" alt="courbe freq vaccin" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/67afec60-57db-442b-b442-234ef0bc7a91">
 
 
+Malgré la variance , il est très clair et très visible que plus il y a du temps entre les vagues de vaccinations plus le nombre d'infectés est élevé ce qui s'exlique par la réduction du nombre total de personne vacciner dans le monde au fur et à mesure du nombre de tour.
+
+
+
 Pour finir une courbe mettant en avant la différence suivant le nombre de vaccin par vague de vaccination : 
 
 
