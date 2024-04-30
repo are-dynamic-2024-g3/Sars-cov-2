@@ -1,10 +1,11 @@
-# L’immunité post infection du SARS-CoV-2
+## L'influence du vaccin sur la population lors de la propagation d'un virus
 
-Notre projet consiste à étudier la propagation du virus dans le temps et l'espace au sein de deux groupes distincts, l'un sans aucune vaccination et l'autre avec un taux de vaccination variable. Dans un premier temps le projet s'est majoritairement inspiré du virus Sars-CoV-2. Mais notre projet n'est pas seulement limité à celui-ci car la plupart des variables sont modifiables , telles que la durée d'infection , la vitesse de propagation, la durée de la vacination, etc...
+Notre projet consiste à étudier la propagation du virus dans le temps et l'espace au sein de deux groupes distincts, l'un sans aucune vaccination et l'autre avec un taux de vaccination variable. Dans un premier temps le projet s'est majoritairement inspiré du virus Sars-CoV-2. Mais notre projet n'est pas seulement limité à celui-ci car la plupart de nos facteurs sont modifiables , telles que la durée d'infection , la vitesse de propagation, la durée de la vacination, etc... Ainsi notre projet ne sera pas seulement limité par un seul virus.
 
-## Post infection immunity from SARS-CoV-2
+## The Vaccine influence on the population during the spread of a virus
 
-Our project is studying the virus spreading in time and space into two differents group, the first one without any vaccination and the other one with a adjustable vaccination rate. In the first time, our project was inspired by the Sars-Cov-2, But of course, our projet can going further because all our variable can be modified as like the the duration of infection, the spreading speed, the duration of vaccination, etc...
+Our project is studying the virus spreading in time and space into two differents group, the first one without any vaccination and the other one with a adjustable vaccination rate. In the first time, our project was inspired by the Sars-Cov-2, But of course, our projet can going further because all our variable can be modified as like the the duration of infection, the spreading speed, the duration of vaccination, etc... 
+
 
 ## Présentation de l'équipe
 
