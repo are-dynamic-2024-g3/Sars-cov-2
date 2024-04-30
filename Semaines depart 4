@@ -25,7 +25,7 @@ Et le plus difficile reste à comprendre la fonction TKinter qui permet de simul
 ##Semaine 6 
 
 Après avoir pris le temps à analyser la bibliothèque TKinter, nous avons pu codé la fonction cycle_entier et la fonctier fenetre qui nous permet de montrer la simulation de nos mondes (l'évolution de nos mondes) en fonction de nos codes, cependant pour que la fonction fenetre marche bien nous avons fait quelque changement sur la façon d'appeller: "None" (deviens)-> "0" , "0" -> "1" , "1" -> "2" et "2" -> "3".
-Et par la suite avec le peu de temps qui nous restait, nous avons redéfini les variables en utilisant la bibliothèque "numpy" (cf nom avec "var" au début) pour être utilisable afin de tracer les courbes.
+Et par la suite avec le peu de temps qui nous restait, nous avons redéfini les variables en utilisant la bibliothèque "numpy" (cf nom avec "var" au début) pour que les variables soient utilisables afin de tracer les courbes.
 
 ##Semaine 7
 
