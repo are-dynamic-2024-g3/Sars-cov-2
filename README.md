@@ -139,7 +139,8 @@ La troisième courbe fait varier la durée de l'infection dans le temps :
 
 <img width="444" alt="courbe duree infection" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/b82512d5-6ab2-43ee-85d5-641020139a43">
 
-
+On peut observer que ce paramètre ne fait que légèrement varier les résultats si l'on fait abstraction de la variance dut  l'aléatoire de l'évolution des mondes qui a un grand impact en raison de leur taille .
+De plus l'absence de l'immunité post-infection n'aide pas à avoir une représentation significative pour ce paramètre.
 
 
 
