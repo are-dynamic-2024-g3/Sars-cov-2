@@ -35,12 +35,38 @@ Nous avons d'abord importé les bibliothèques utiles au projet :
 puis un code qui permet de générer des mondes aléatoires composés de cases vides et d'individus sains :
 <img width="744" alt="creamonde" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/85506b05-6669-4550-89b1-a48d551b96a5">
 
+Nous avons ensuite créer un code permettant d'infecter aléatoirement une case non vide dans le monde : 
+<img width="629" alt="primoinfection" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/a0ef6ff5-fae5-4a8e-a765-149a05cf14b3">
 
-Cas Extreme:
+Ainsi qu'un code pouvent faire une liste des voisins d'une case de coordonnée (x,y) et un autre qui permet d'analyser cette liste et de vérifier sur une case répondant au critères d'infections est encore disponible , ce qui nous à permis de créer une condition d'arrêt pour nous infections . 
+Un autre code à été necessaire pour créer un autre tableau a 2dimension contenant une information très importante pour la suite du code : la durée depuis la quelle une personne est dans un état x ( infecté ou vacciné ) ce qui nous permet de contrôler quand une cellule arrive à la durée 
+d'expiration de son état actuel. 
+ une fois tous les codes réaliser nous avons fait un nouveau code permettant d'effectuer un tour complet de boucle dans une monde pour le moment contenant uniquement des cases vides , des individus saints et d'autres infectés : 
+ <img width="741" alt="tour base" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/06a33b21-7229-49c5-ba6f-10ceb46c4bb9">
 
-![Image Extreme](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/ae1f35ee-1d9e-46b1-9122-eb303fea1209)![Gif_extreme](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/1eb39753-5a6c-4082-a212-e662b68a6d88)
+ puis nous avons réaliser la même chose pour une monde contenant aussi une autre possibilitée : une personne vaccinée. 
 
-Cas Soft:
+ ## TKINTER:
+
+ Nous avons ensuite décidé de mettre à profit tout le travail réalisé plus tôt avec la bibliothèque *TKINTER* pour avoir une visualisation plus concrète des différents monde au cours du temps. 
+ voici donc le code *TKINTER* utilisé pour réaliser cela: 
+ <img width="592" alt="tk1" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/123e545f-02c9-4ff2-a741-8156c759855e">
+ici nous commençons par créer les deux mondes sur une même base ainsi que leur parallèle contenant les informations de temps. 
+
+<img width="563" alt="tk2" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/98b918e6-bd5f-40f9-9820-82207021182b">
+Nous déclarons les différentes variables nécéssaire à la création de la fenetre *TKINTER* ainsi que de la zone de dessin. 
+
+<img width="700" alt="tk3" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/3036fbd9-3423-4f88-a61d-fd05a3e4cc85">
+Et voici le code qui nous permet de gerer la zone de dessin et de la mettre à jour de manière automatique en effectuant un tour de boucle à chaque actualisation.
+
+voici deux exemple de ce que donne la fenetre tkinter avec les variables utiliser lors de chacunes des simunations.
+
+Un cas avec une vaccination forte avec des paramètre élévés:
+
+![Image Extreme](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/ae1f35ee-1d9e-46b1-9122-eb303fea1209)
+![Gif_extreme](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/1eb39753-5a6c-4082-a212-e662b68a6d88)
+
+Un cas ou la vaccination sur la population est plus faible:
 
 ![Image Soft](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/9ea82310-2ac4-405f-907b-ec8c89e0909b)
 ![Gif_soft](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/33d8df13-1a06-442f-aecb-7daf4e360c49)
@@ -51,13 +77,6 @@ expliquer que le vaccin fort pourrait totalement stopper l'infection si prise en
 
 Les Courbes:
 
-![Im6](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/cd0b585e-6a80-4fdd-9df1-f87d8d6134df)
-![Im5](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/146bbc7b-cbf1-4441-8a7b-d1d937c785b0)
-![Im4 fake](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/b25d94db-1665-4ee7-91a0-0180b4a26425)
-![Im3](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/95914860-c0cc-4445-81db-eec590d3550c)
-![Im2](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/9cd4c00d-1ca5-47fa-bd58-51cf3047624b)
-![Im1](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/cd7bd09e-a0c7-4b24-976a-17662f2a8868)
-![Im7](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/3677ac04-f94a-47f4-b3ee-45e6189843e2)
 
 
 ## Compte rendu
