@@ -149,7 +149,7 @@ La suivante mets en avant la fluctuation de la durée d'efficacitée du vaccin :
 
 <img width="455" alt="courbe duree efficacité" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/8e29ef50-4ec0-4de5-86eb-0de3e7148af8">
 
-
+Effectivement la tendance de la courbe est à la baisse avec l'augmentation de la durée, cela s'explique par l'augmentation du nombre d'individu vacciné présent à la fin de la simulation ce qui réduit inévitablement le nombre d'individus infectés et infectable.
 Pour la cinquième courbe nous avons décidé de jouer avec le taux d'efficacité du vaccin :
 
 
