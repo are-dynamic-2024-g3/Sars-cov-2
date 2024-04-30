@@ -1,6 +1,6 @@
 # L’immunité post infection du SARS-CoV-2
 
-Notre projet consiste à étudier la propagation du virus dans le temps et l'espace au sein de deux groupes distincts, l'un sans aucune vaccination et l'autre avec un taux de vaccination variable. Dans un premier temps le projet s'est majoritairement inspiré du virus Sars-CoV-2. Mais notre projet n'est pas seulement limité à celui-ci car la plus part des variables sont modifiables , telles que la durée d'infection , la vitesse de propagation, la durée de la vacination, etc...
+Notre projet consiste à étudier la propagation du virus dans le temps et l'espace au sein de deux groupes distincts, l'un sans aucune vaccination et l'autre avec un taux de vaccination variable. Dans un premier temps le projet s'est majoritairement inspiré du virus Sars-CoV-2. Mais notre projet n'est pas seulement limité à celui-ci car la plupart des variables sont modifiables , telles que la durée d'infection , la vitesse de propagation, la durée de la vacination, etc...
 
 ## Post infection immunity from SARS-CoV-2
 
@@ -23,64 +23,67 @@ Our project is studying the virus spreading in time and space into two different
 
 **Critère(s) d'évaluation : Evaluer le taux de personnes infectées en fonction du temps et des differentes variables dans 2 groupes.**
 
-## Présentation structurée des résultats
-
-Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).
+## Présentation structurée du code et des résultats:
 
 Nous avons choisi de réaliser notre projet via jupyter notebook en python. 
 
-Nous avons d'abord importé les bibliothèques utiles au projet : 
+Nous avons d'abord importé les bibliothèques utiles au projet: 
+
 <img width="747" alt="biblio" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/7dd99020-ecf8-4095-8f08-77e21998f54d">
 
-puis un code qui permet de générer des mondes aléatoires composés de cases vides et d'individus sains :
+
+puis un code qui permet de générer des mondes aléatoires composés de cases vides et d'individus sains:
 
 <img width="744" alt="creamonde" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/85506b05-6669-4550-89b1-a48d551b96a5">
 
-Nous avons ensuite créer un code permettant d'infecter aléatoirement une case non vide dans le monde : 
+
+Nous avons ensuite crée un code permettant d'infecter aléatoirement une case non vide dans le monde: 
 
 <img width="629" alt="primoinfection" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/a0ef6ff5-fae5-4a8e-a765-149a05cf14b3">
 
-Ainsi qu'un code pouvent faire une liste des voisins d'une case de coordonnée (x,y) et un autre qui permet d'analyser cette liste et de vérifier sur une case répondant au critères d'infections est encore disponible , ce qui nous à permis de créer une condition d'arrêt pour nous infections . 
-Un autre code à été necessaire pour créer un autre tableau a 2dimension contenant une information très importante pour la suite du code : la durée depuis la quelle une personne est dans un état x ( infecté ou vacciné ) ce qui nous permet de contrôler quand une cellule arrive à la durée 
-d'expiration de son état actuel. 
- une fois tous les codes réaliser nous avons fait un nouveau code permettant d'effectuer un tour complet de boucle dans une monde pour le moment contenant uniquement des cases vides , des individus saints et d'autres infectés : 
+
+Ainsi qu'un code pouvant faire une liste des voisins d'une case de coordonnée (x,y) et un autre qui permet d'analyser cette liste et de vérifier si une case répondant aux critères d'infections est encore disponible , ce qui nous à permis de créer une condition d'arrêt pour nos infections . 
+Un autre code à été necessaire pour créer un autre tableau à 2 dimensions contenant une information très importante pour la suite du code : la durée depuis laquelle une personne est dans un état x ( infecté ou vacciné ) ce qui nous permet de contrôler quand une cellule arrive à la durée d'expiration de son état actuel. 
+ une fois tous les codes réalisé nous avons fait un nouveau code permettant d'effectuer un tour complet de boucle dans une monde pour le moment contenant uniquement des cases vides , des individus sains et d'autres infectés : 
  
  <img width="741" alt="tour base" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/06a33b21-7229-49c5-ba6f-10ceb46c4bb9">
 
- puis nous avons réaliser la même chose pour une monde contenant aussi une autre possibilitée : une personne vaccinée. 
+
+ puis nous avons réalisé la même chose pour une monde contenant aussi une autre possibilité : une personne vaccinée. 
 
  ## TKINTER:
 
- Nous avons ensuite décidé de mettre à profit tout le travail réalisé plus tôt avec la bibliothèque *TKINTER* pour avoir une visualisation plus concrète des différents monde au cours du temps. 
+ Nous avons ensuite décidé de mettre à profit tout le travail réalisé plus tôt avec la bibliothèque *TKINTER* pour avoir une visualisation plus concrète des différents mondes au cours du temps. 
  voici donc le code *TKINTER* utilisé pour réaliser cela: 
  
- <img width="592" alt="tk1" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/123e545f-02c9-4ff2-a741-8156c759855e">
+  
+  <img width="592" alt="tk1" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/123e545f-02c9-4ff2-a741-8156c759855e">
 
 Ici nous commençons par créer les deux mondes sur une même base ainsi que leur parallèle contenant les informations de temps. 
 
+
 <img width="563" alt="tk2" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/98b918e6-bd5f-40f9-9820-82207021182b">
 
-Nous déclarons les différentes variables nécéssaire à la création de la fenetre *TKINTER* ainsi que de la zone de dessin. 
+Nous déclarons les différentes variables nécéssaires à la création de la fenêtre *TKINTER* ainsi que de la zone de dessin. 
+
 
 <img width="700" alt="tk3" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/3036fbd9-3423-4f88-a61d-fd05a3e4cc85">
 
 Et voici le code qui nous permet de gerer la zone de dessin et de la mettre à jour de manière automatique en effectuant un tour de boucle à chaque actualisation.
 
-voici deux exemple de ce que donne la fenetre tkinter avec les variables utiliser lors de chacunes des simunations.
+voici deux exemples de ce que donne la fenêtre*TKINTER* avec les variables utilisées lors de chacune des simulations.
 
-Un cas avec une vaccination forte avec des paramètre élévés:
+
+Un cas avec une vaccination forte avec des paramètres élévés:
 
 ![Image Extreme](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/ae1f35ee-1d9e-46b1-9122-eb303fea1209)
 ![Gif_extreme](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/1eb39753-5a6c-4082-a212-e662b68a6d88)
 
-Un cas ou la vaccination sur la population est plus faible:
+Un cas où la vaccination sur la population est plus faible:
 
 ![Image Soft](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/9ea82310-2ac4-405f-907b-ec8c89e0909b)
 ![Gif_soft](https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160223042/33d8df13-1a06-442f-aecb-7daf4e360c49)
 
-2 tkinter : un vaccin faible : .GIF , un vaccin fort : 
-
-expliquer que le vaccin fort pourrait totalement stopper l'infection si prise en compte de l'immun post infection .
 
 Les Courbes:
 
