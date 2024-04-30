@@ -9,10 +9,31 @@ Cette semaine nous nous somme plus concentré sur le codage en codant plusieurs 
 
 ### Semaine 3
 
-De même, aujourd'hui nous nous sommes plus concentré sur le codage que sur la recherche, Par ailleurs plus nous avençons dans le codage, plus nous remarquons que les recherches n'était pas nécessaire puisque tous nos facteurs sont présenté par des variables. Nous avons implémenté en premier la fonction "tour" qui, comme sont nom indique faire un tour en infectant un individu utilisé avec verif_voisin et compèté avec désinfection. Comme notre projet était de se rapprocher de la réalité, nous avons également crée la fonction "déplacement" qui sert à changé de place entre 2 personne ce qui simule les déplacements telle que la migration. Et par la suite nous nous aidons de la fonction "tour" pour créer "tour_boucle" qui prend en plus le "nombre de tour" et la "fréquence de déplacement", en effet cette fonction permet de faire plusieurs tour correspondant à la variable "nombre de tour" complété par la "fréquence de déplament" faisant appel à la fonction déplacement.
-
+De même, aujourd'hui nous nous sommes plus concentré sur le codage que sur la recherche, Par ailleurs plus nous avençons dans le codage, plus nous remarquons que les recherches n'était pas nécessaire puisque tous nos facteurs sont présenté par des variables. Nous avons implémenté en premier la fonction "tour" qui, comme sont nom indique faire un tour en infectant un individu en utilisant "verif_voisin" et "désinfection". Comme notre projet était de se rapprocher de la réalité, nous avons également crée la fonction "déplacement" qui sert à changé de place entre 2 personne ce qui simule les déplacements telle que la migration. Et par la suite nous nous aidons de la fonction "tour" pour créer "tour_boucle" qui prend en plus le "nombre de tour" et la "fréquence de déplacement", en effet cette fonction permet de faire plusieurs tour correspondant à la variable "nombre de tour" complété par la "fréquence de déplament" faisant appel à la fonction déplacement.
 
 
 ### Semaine 4
 
-Bonjour, la dernière fois nous avons terminé la fonction "tour_boucle" qui stimule la propagation du virus dans le premier monde, donc dans celui avec sans vaccin. Aujourd'hui nous attaquons donc 
+Bonjour, la dernière fois nous avons terminé la fonction "tour_boucle" qui stimule la propagation du virus dans le premier monde, donc dans celui avec sans vaccin. Aujourd'hui nous attaquons donc le deuxième monde avec vaccin, comme on peu s'attendre, on a implémenté la fonction "vaccin" qui permet de vacciner un individu non infecté de manière aléatoire et ces individus seront indiqué par des 2 (plus tard devenus 3 pour TKinter). Cependant ces individus ne doivent pas se relacher, en effet être vacciné ne signifie pas 100% protégé du virus, nous avons donc créer la fonction "infection_vaccin" qui permet de se jouer sur la chance (une variable aléatoire de 0 à 1 comme dans la vrai vie) si la chance est plus fort que le "taux d'immunité" donné par le vaccin, alors l'individu sera infecté.
+Ces 2 fonctions nous a pas pris énormémment de temps, donc nous avons profiter pour faire "devaccin" en se basant sur la fonction "désinfection" ce qui les rend assez similaire mais avec des entrées de variables différents et des fonctionnalités qui diffère un peu.
+
+## Semaine 5
+
+Cette semaine, compraré au précédante, nous avons eu quelque difficulté en plus. Tout d'abord nous avons commencé avec la fonction "tour_vaccin" et "tour_boucle_vaccin" en se basant sur les fonction "tour" et "tour_boucle", leurs utilités ne sont donc pas difficile à deviner. Le premier sert à faire un tour sur la base de "tour" mais avec les fonction : "devaccin", "vaccin" et "infection_vaccin" et le deuxième sert à faire plusieurs tour en fonction du variable nb_tour, des déplacement en fonction de la fréquence_deplacement, et enfin la vaccination en fonction de la fréquence_vaccin.
+Et le plus difficile reste à comprendre la fonction TKinter qui permet de simuler nos fonction, de nos mondes créer. Pour cela nous avons seulement analysé la bibliothèque de tkinter.
+
+##Semaine 6 
+
+Après avoir pris le temps à analyser la bibliothèque TKinter, nous avons pu codé la fonction cycle_entier et la fonctier fenetre qui nous permet de montrer la simulation de nos mondes (l'évolution de nos mondes) en fonction de nos codes, cependant pour que la fonction fenetre marche bien nous avons fait quelque changement sur la façon d'appeller: "None" (deviens)-> "0" , "0" -> "1" , "1" -> "2" et "2" -> "3".
+Et par la suite avec le peu de temps qui nous restait, nous avons redéfini les variables en utilisant la bibliothèque "numpy" (cf nom avec "var" au début) pour être utilisable afin de tracer les courbes.
+
+##Semaine 7
+
+Sans surprise, comment peut on parler de science sans preuve donc les courbes, cette semaine nous sommes consacré à la création des courbes en nous appuyant sur les fonction précédemment fait ("tour_boucle" et "tour_boucle_vaccin" :
+."Le nombre d'infecté en fonction de la fréquence de la propagation"
+."Le nombre d'infecté en fonction du taux de ne pas se faire infecté"
+."Le nombre d'infecté en fonction de la durée d'infection"
+."Le nombre d'infecté en fonction la durée de vaccin"
+."Le nombre d'infecté en fonction du taux d'immunitée"
+."Le nombre d'infecté en fonction de la fréquance de vaccination"
+."Le nombre d'infecté en fonction du nombre de vaccin par tour"
