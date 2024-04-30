@@ -103,7 +103,7 @@ en vert : les individus vaccinés.
 
 Ici nous pouvons observer que malgré la présence d'individus vaccinés le virus continue de circuler sans être beaucoup impacté.
 
-Les Courbes:
+## Les courbes :
 
 
 
