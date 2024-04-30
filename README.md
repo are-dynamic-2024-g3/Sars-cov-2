@@ -228,7 +228,3 @@ Sans surprise, comment peut on parler de science sans preuve donc les courbes, c
 
 
 
-
-
-
-## Lien vers page de blog : <a href="blog.md"> C'est ici ! </a>
