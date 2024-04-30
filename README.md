@@ -27,7 +27,9 @@ Our project is studying the virus spreading in time and space into two different
 
 Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).
 
-Nous avons choisi de réaliser notre projet via jupyter notebook en python. Nous avons d'abord importé les bibliothèques utiles au projet : IMG
+Nous avons choisi de réaliser notre projet via jupyter notebook en python. Nous avons d'abord importé les bibliothèques utiles au projet : 
+<img width="747" alt="biblio" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/7dd99020-ecf8-4095-8f08-77e21998f54d">
+
 puis un code qui permet de générer des mondes aléatoires composées de case vide et d'individus sains :
 
 Cas Extreme:
