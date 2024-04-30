@@ -157,7 +157,8 @@ Effectivement la tendance de la courbe est à la baisse avec l'augmentation de l
 Pour la cinquième courbe nous avons décidé de jouer avec le taux d'efficacité du vaccin :
 
 
-<img width="453" alt="courbe taux immun" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/69dd4772-1cb9-4408-a9e4-6802c72abcb1">
+<img width="449" alt="courbe taux immun" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/5691e960-656d-43e7-9633-cbe9e0c8860d">
+
 
 
 Nous avons poursuivi avec une analise suivant le temps entre deux vague de vaccination :
