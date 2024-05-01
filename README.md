@@ -200,29 +200,30 @@ Aujourd'hui nous nous sommes restés concentré sur le codage. Par ailleurs, plu
 
 ### Semaine 4
 
-Bonjour, la dernière fois nous avons terminé la fonction "tour_boucle" qui stimule la propagation du virus dans le premier monde, donc dans celui avec sans vaccin. Aujourd'hui nous attaquons donc le deuxième monde avec vaccin, comme on peu s'attendre, on a implémenté la fonction "vaccin" qui permet de vacciner un individu non infecté de manière aléatoire et ces individus seront indiqué par des 2 (plus tard devenus 3 pour TKinter). Cependant ces individus ne doivent pas se relacher, en effet être vacciné ne signifie pas 100% protégé du virus, nous avons donc créer la fonction "infection_vaccin" qui permet de se jouer sur la chance (une variable aléatoire de 0 à 1 comme dans la vrai vie) si la chance est plus fort que le "taux d'immunité" donné par le vaccin, alors l'individu sera infecté.
-Ces 2 fonctions nous a pas pris énormémment de temps, donc nous avons profiter pour faire "devaccin" en se basant sur la fonction "désinfection" ce qui les rend assez similaire mais avec des entrées de variables différents et des fonctionnalités qui diffère un peu.
+Bonjour, la dernière fois nous avons terminé la fonction "tour_boucle" qui simule la propagation du virus dans le premier monde, donc dans celui sans vaccin. Aujourd'hui nous attaquons donc le deuxième monde avec vaccin. Nous avons 
+ implémenté la fonction "vaccin" qui permet de vacciner un individu non infecté de manière aléatoire, ces individus seront indiqués par des 2 (plus tard devenus 3 pour TKinter). Cependant, ces individus ne doivent pas se relacher, en effet être vacciné ne signifie pas 100% protégé du virus. Nous avons donc crée la fonction "infection_vaccin" qui permet de jouer sur l'aléatoire (une variable aléatoire de 0 à 1 ). Si la variable aléatoire est plus elevée que le "taux d'immunité" donné par le vaccin, alors l'individu sera infecté.
+Ces 2 fonctions ne nous ont pas pris énormémment de temps, donc nous en avons profité pour faire "devaccin" en se basant sur la fonction "désinfection", ce qui les rend assez similaire mais avec des entrées de variables différentes et des fonctionnalités qui diffèrent légèrement.
 
 ## Semaine 5
 
-Cette semaine, compraré au précédante, nous avons eu quelque difficulté en plus. Tout d'abord nous avons commencé avec la fonction "tour_vaccin" et "tour_boucle_vaccin" en se basant sur les fonction "tour" et "tour_boucle", leurs utilités ne sont donc pas difficile à deviner. Le premier sert à faire un tour sur la base de "tour" mais avec les fonction : "devaccin", "vaccin" et "infection_vaccin" et le deuxième sert à faire plusieurs tour en fonction du variable nb_tour, des déplacement en fonction de la fréquence_deplacement, et enfin la vaccination en fonction de la fréquence_vaccin.
-Et le plus difficile reste à comprendre la fonction TKinter qui permet de simuler nos fonction, de nos mondes créer. Pour cela nous avons seulement analysé la bibliothèque de tkinter.
+Cette semaine, comparé aux précédentes, nous avons eu quelques difficultés en plus. Tout d'abord nous avons commencé avec la fonction "tour_vaccin" et "tour_boucle_vaccin" en se basant sur les fonction "tour" et "tour_boucle", leurs utilités ne sont donc pas difficile à deviner. Le premier sert à faire un tour sur la base de "tour" mais avec les fonctions : "devaccin", "vaccin" et "infection_vaccin" et le deuxième sert à faire plusieurs tours en fonction de la variable : "nb_tour", des déplacements en fonction de la "fréquence_deplacement", et enfin la vaccination en fonction de la "fréquence_vaccin".
+Le plus difficile reste à comprendre la bibliothèque TKinter qui permet de simuler nos fonctions, pour avoir un affichage graphique de l'évolution de nos mondes. Pour cela nous avons commencé à étudier la bibliothèque Tkinter.
 
 ## Semaine 6 
 
-Après avoir pris le temps à analyser la bibliothèque TKinter, nous avons pu codé la fonction cycle_entier et la fonctier fenetre qui nous permet de montrer la simulation de nos mondes (l'évolution de nos mondes) en fonction de nos codes, cependant pour que la fonction fenetre marche bien nous avons fait quelque changement sur la façon d'appeller: "None" (deviens)-> "0" , "0" -> "1" , "1" -> "2" et "2" -> "3".
-Et par la suite avec le peu de temps qui nous restait, nous avons redéfini les variables en utilisant la bibliothèque "numpy" (cf nom avec "var" au début) pour que les variables soient utilisables afin de tracer les courbes.
+Après avoir pris le temps d'analyser la bibliothèque TKinter, nous avons pu coder la fonction cycle_entier et la fonctier fenetre qui nous permet de montrer la simulation de nos mondes (l'évolution de nos mondes) en fonction du temps. Cependant, pour que la fonction fenêtre fonctionne comme prévu nous avons fait quelques changements sur la façon d'appeller nos individus: "None" (deviens)-> "0" , "0" -> "1" , "1" -> "2" et "2" -> "3".
+Par la suite, avec le peu de temps qui nous restait, nous avons redéfini les variables en utilisant la bibliothèque "numpy" (cf nom avec "var" au début) pour que les variables soient utilisables afin de tracer les courbes.
 
 ## Semaine 7
 
-Sans surprise, comment peut on parler de science sans preuve donc les courbes, cette semaine nous sommes consacré à la création des courbes en nous appuyant sur les fonction précédemment fait ("tour_boucle" et "tour_boucle_vaccin" :
-."Le nombre d'infecté en fonction de la fréquence de la propagation"
-."Le nombre d'infecté en fonction du taux de ne pas se faire infecté"
-."Le nombre d'infecté en fonction de la durée d'infection"
-."Le nombre d'infecté en fonction la durée de vaccin"
-."Le nombre d'infecté en fonction du taux d'immunitée"
-."Le nombre d'infecté en fonction de la fréquance de vaccination"
-."Le nombre d'infecté en fonction du nombre de vaccin par tour"
+Il est primordial d'analyser ses résultats lorsque l'on souhaite tirer des conclusions d'une étude. Cette semaine nous nous sommes donc logiquement consacrés à la création des courbes en nous appuyant sur les fonctions précédemment faites "tour_boucle" et "tour_boucle_vaccin" :
+."Le nombre d'infectés en fonction de la fréquence de la propagation"
+."Le nombre d'infectés en fonction du taux de ne pas se faire infecté"
+."Le nombre d'infectés en fonction de la durée d'infection"
+."Le nombre d'infectés en fonction la durée de vaccin"
+."Le nombre d'infectés en fonction du taux d'immunitée"
+."Le nombre d'infectés en fonction de la fréquance de vaccination"
+."Le nombre d'infectés en fonction du nombre de vaccin par tour"
 
 
 
