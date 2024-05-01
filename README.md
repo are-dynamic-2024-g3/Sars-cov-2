@@ -105,33 +105,33 @@ en vert : les individus vaccinés.
 Ici nous pouvons observer que malgré la présence d'individus vaccinés le virus continue de circuler sans être beaucoup impacté.
 
 ## Les courbes :
-Pour pouvoir visualiser l'impact des différentes variables individuelement nous avons décider de générer des courbes avec des variables fixe à certaine valeur et une variable unique,
+Pour pouvoir visualiser l'impact des différentes variables individuellement nous avons décidé de générer des courbes avec des variables fixées à certaines valeurs et une variable unique,
 qui change à chaque courbe.
 
-Voici les paramètres utiliser:
+Voici les paramètres utilisés:
 
 <img width="528" alt="variables courbes" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/a15fbde6-6696-46d3-a3f8-643adbbf4e6a">
 
-ainsi qu'un exemple du code utiliser pour les différentes courbes : 
+ainsi qu'un exemple du code utilisé pour les différentes courbes : 
 
 <img width="742" alt="ex code courbe" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/886cab24-66da-4288-b307-641563d21463">
 
 
-Pour la première courbe nous avons décidé de faire varier le nombre de personne qu'un individu infecté peut contaminer : 
+Pour la première courbe nous avons décidé de faire varier le nombre de personnes qu'un individu infecté peut contaminer : 
 
 <img width="447" alt="courbe propagation" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/854eb213-7b17-4c25-8f2e-f5f2f7e31de4">
 
-de manière assez logique plus les personnes sont contagieuse plus le nombre d'infectés à la fin de la simulation est grand, une légère différence est présente entre le monde ayant accès au vaccin et celui qui n'y à pas accès mais malgré ça le nombre d'infectés reste très élevé avec l'augmentation de la contagiosité.
+de manière assez logique plus les personnes sont contagieuses, plus le nombre d'infectés à la fin de la simulation est grand. Une légère différence est présente entre le monde ayant accès au vaccin et celui qui n'y a pas accès mais malgré cela le nombre d'infectés reste très élevé avec l'augmentation de la contagiosité.
 
 
 
-Pour la courbe suivante nous avons décider de jouer sur la capacitée des individus à résister à une transmission:
+Pour la courbe suivante nous avons décidé de jouer sur la capacitée des individus à résister à une transmission:
 
 <img width="477" alt="courbe résistance" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/d70959d1-82c1-4ab8-8120-19ac407b2b23">
 
 
-Sans surprise la baisse est proportionnelle au taux de résistance, la courbe du monde contenant le vaccin tend cependant légèrement plus vite vers 0. Ce facteur est donc très important pour prédire la 
-viralitée d'un virus. Mais ce n'est pas la facteur sur le quel il est le plus simple d'influer. 
+Sans surprise la baisse est proportionnelle au taux de résistance. La courbe du monde contenant le vaccin tend cependant légèrement plus vite vers zéro. Ce facteur est donc très important pour prédire la 
+viralitée d'un virus, mais ce n'est pas la facteur sur lequel il est le plus simple d'influer. 
 
 
 
@@ -140,17 +140,17 @@ La troisième courbe fait varier la durée de l'infection dans le temps :
 
 <img width="444" alt="courbe duree infection" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/b82512d5-6ab2-43ee-85d5-641020139a43">
 
-On peut observer que ce paramètre ne fait que légèrement varier les résultats si l'on fait abstraction de la variance dut  l'aléatoire de l'évolution des mondes qui a un grand impact en raison de leur taille .
+On peut observer que ce paramètre ne fait que légèrement varier les résultats si l'on fait abstraction de la variance due à l'aléatoire de l'évolution des mondes qui a un grand impact en raison de leur taille .
 De plus l'absence de l'immunité post-infection n'aide pas à avoir une représentation significative pour ce paramètre.
 
 
 
-La suivante mets en avant la fluctuation de la durée d'efficacitée du vaccin :
+La suivante met en avant la fluctuation de la durée d'efficacité du vaccin :
 
 
 <img width="455" alt="courbe duree efficacité" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/8e29ef50-4ec0-4de5-86eb-0de3e7148af8">
 
-Effectivement la tendance de la courbe est à la baisse avec l'augmentation de la durée, cela s'explique par l'augmentation du nombre d'individu vacciné présent à la fin de la simulation ce qui réduit inévitablement le nombre d'individus infectés et infectable.
+Effectivement la tendance de la courbe est à la baisse avec l'augmentation de la durée. Cela s'explique par l'augmentation du nombre d'individus vaccinés présents à la fin de la simulation ce qui réduit inévitablement le nombre d'individus infectés et infectables.
 
 
 
@@ -159,17 +159,17 @@ Pour la cinquième courbe nous avons décidé de jouer avec le taux d'efficacit�
 
 <img width="449" alt="courbe taux immun" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/5691e960-656d-43e7-9633-cbe9e0c8860d">
 
-Il est possible de faire un lien assez évident entre le taux d'immunité du vaccin et la réduction du nombre d'individus infectés à la fin des simulations malgré quelques inconsistances dut encore une fois au côté aléatoire et la taille réduite de notre représentation ce qui accentue l'impacte de l'aléatoire.
+Il est possible de faire un lien assez évident entre le taux d'immunité du vaccin et la réduction du nombre d'individus infectés à la fin des simulations, malgré quelques inconsistances dues encore une fois au côté aléatoire et la taille réduite de notre représentation ce qui accentue l'impact de l'aléatoire.
 
 
 
-Nous avons poursuivi avec une analyse suivant le temps entre deux vague de vaccination :
+Nous avons poursuivi avec une analyse suivant le temps entre deux vagues de vaccination :
 
 
 <img width="443" alt="courbe freq vaccin" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/67afec60-57db-442b-b442-234ef0bc7a91">
 
 
-Malgré la variance , il est très clair et très visible que plus il y a du temps entre les vagues de vaccinations plus le nombre d'infectés est élevé ce qui s'exlique par la réduction du nombre total de personne vacciner dans le monde au fur et à mesure du nombre de tour.
+Malgré la variance , il est très clair et très visible que plus il y a du temps entre les vagues de vaccinations plus le nombre d'infectés est élevé ce qui s'exlique par la réduction du nombre total de personnes vaccinées dans le monde au fur et à mesure du nombre de tour.
 
 
 
@@ -178,10 +178,10 @@ Pour finir une courbe mettant en avant la différence suivant le nombre de vacci
 
 <img width="455" alt="courbe vaccin partour" src="https://github.com/are-dynamic-2024-g3/Sars-cov-2/assets/160217069/eaa83b5b-289f-497d-91aa-2885d5bdf14d">
 
-Cette courbe est surement la plus explicite, effectivement malgré une variance possible dut à l'aléatoire le résultat reste très linéaire et une tendance très clair se dessine.
+Cette courbe est surement la plus explicite. Effectivement, malgré une variance possible dut à l'aléatoire, le résultat reste très linéaire et une tendance très claire se dessine.
 
 **Conclusion**: 
-Les differentes variables ont une incidence plus ou moins visible sur le nombre d'infectés mais c'est l'accumulation de ces dernière que l'on obtient le meilleur resultat, de plus le monde est drastiquement simplifié par rapport à un cas réel ce qui explique certaines différence avec la réalité , l'absence de la prise en compte de l'immunité post-infection et la prise en compte de l'evolution du virus sont les deux plus gros facteurs non pris en compte dans notre réalisation, il serait donc très interessant de voir l'évolution des résultats avec l'ajout de ces derniers. Introduire une immunité dégressive serait aussi une piste très intéressante pour rendre notre simulation plus proche de la réalité mais demanderait plu de temps pour être implémenté et demanderait une optimsation plus poussé du code acutel pour éviter d'avoir un code final trop lourd lors de l'execution.
+Les differentes variables ont une incidence plus ou moins visible sur le nombre d'infectés, mais c'est grâce à l'accumulation de ces dernières que l'on obtient le meilleur resultat. De plus, le monde est drastiquement simplifié par rapport à un cas réel ce qui explique certaines différences avec la réalité. La prise en compte de l'immunité post-infection et de l'evolution du virus sont les deux plus gros facteurs non implémentés dans notre réalisation. Il serait donc très interessant de voir l'évolution des résultats avec l'ajout de ces derniers. Introduire une immunité dégressive serait aussi une piste très pertinante pour rendre notre simulation plus proche de la réalité mais demanderait plus de temps pour être implémenté et demanderait une optimsation plus poussée du code acutel pour éviter d'avoir un code final trop lourd lors de l'execution.
 
 ## Compte rendu
 
