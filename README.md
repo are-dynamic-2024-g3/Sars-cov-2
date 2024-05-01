@@ -218,12 +218,12 @@ Par la suite, avec le peu de temps qui nous restait, nous avons redéfini les va
 
 Il est primordial d'analyser ses résultats lorsque l'on souhaite tirer des conclusions d'une étude. Cette semaine nous nous sommes donc logiquement consacrés à la création des courbes en nous appuyant sur les fonctions précédemment faites "tour_boucle" et "tour_boucle_vaccin" :
 ."Le nombre d'infectés en fonction de la fréquence de la propagation"
-."Le nombre d'infectés en fonction du taux de ne pas se faire infecté"
+."Le nombre d'infectés en fonction du taux de résistance face à l'infection"
 ."Le nombre d'infectés en fonction de la durée d'infection"
 ."Le nombre d'infectés en fonction la durée de vaccin"
-."Le nombre d'infectés en fonction du taux d'immunitée"
-."Le nombre d'infectés en fonction de la fréquance de vaccination"
-."Le nombre d'infectés en fonction du nombre de vaccin par tour"
+."Le nombre d'infectés en fonction du taux d'immunité"
+."Le nombre d'infectés en fonction de la fréquence de vaccination"
+."Le nombre d'infectés en fonction du nombre de vaccins par tour"
 
 
 
