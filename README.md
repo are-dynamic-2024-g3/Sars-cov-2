@@ -229,7 +229,7 @@ Il est primordial d'analyser ses résultats lorsque l'on souhaite tirer des conc
 
 Remarque: Dans un premier notre projet est certes inspiré du Sars-Cov-19, cependant plus nous rentrons dans le détail de notre projet, plus nos facteurs devinnent des variables. Ainsi les recherches (mis à part la valeur de R0) sont devenus non essentielle puisque tout est modifiable.
 
-Bibliothèque.md
+[Bibliothèque.md](https://github.com/are-dynamic-2024-g3/Sars-cov-2/blob/main/Biblioth%C3%A8que.md)
 
 
 
