@@ -225,6 +225,12 @@ Il est primordial d'analyser ses résultats lorsque l'on souhaite tirer des conc
 ."Le nombre d'infectés en fonction de la fréquence de vaccination"
 ."Le nombre d'infectés en fonction du nombre de vaccins par tour"
 
+## Bilbiothèque:
+
+Remarque: Dans un premier notre projet est certes inspiré du Sars-Cov-19, cependant plus nous rentrons dans le détail de notre projet, plus nos facteurs devinnent des variables. Ainsi les recherches (mis à part la valeur de R0) sont devenus non essentielle puisque tout est modifiable.
+
+
+
 
 
 
